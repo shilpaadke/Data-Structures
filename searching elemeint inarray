@@ -1,0 +1,31 @@
+Arr=N.array("i",[10,20,30,20,40])
+print(Arr)
+Ele=int(input("Element to be searched"))
+cnt=0
+
+for I in range(len(Arr)):
+    if Arr[I]==Ele:
+      cnt=cnt+1
+
+if(cnt>0):
+    print(cnt,"times")
+else:
+    print("not found")   
+
+•	Write a python program to search a particular element in an array . If number is present print”found” else not “not found”
+
+Arr=N.array("i",[10,20,30,20,40])
+print(Arr)
+Ele=int(input("Element to be searched"))
+flag=0
+
+for I in range(len(Arr)):
+    if Arr[I]==Ele:
+      flag=1
+
+if(flag=1):
+    print(“found")
+else:
+    print("not found")   
+
+
